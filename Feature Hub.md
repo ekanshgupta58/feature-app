@@ -1,9 +1,9 @@
-**Feature Hub**
+# Feature Hub
 
 Created by Sinner Schrader to facilitate collaboration of different
 frontend teams and reusability of components.
 
-**What is Feature Hub?**
+### What is Feature Hub?
 
 The Feature Hub is JavaScript implementation of the micro frontends
 approach to creating scalable web applications with multiple teams. We
@@ -17,7 +17,7 @@ frontends.
 A large browser based application is broken into multiple features and
 each feature is owned by a different team.
 
-**What is a Feature App?**
+### What is a Feature App?
 
 The Feature app in context of a feature hub is a micro frontend.
 
@@ -26,7 +26,7 @@ requirements.
 
 A Feature app consists of **dependencies,**
 
-**optionalDependencies,**
+### optionalDependencies,
 
 and a **create()** method
 ```
@@ -135,7 +135,7 @@ properties:
 > baseUrl --- A base URL to be used for referencing the Feature App\'s
 > own resources.
 
-**What is a Feature Service?**
+### What is a Feature Service?
 
 A Feature Service provides shared state and shared functionality to all
 the feature apps.
