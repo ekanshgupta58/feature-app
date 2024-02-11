@@ -1,4 +1,4 @@
-# Feature Hub
+# Feature Hub - EKANSH GUPTA
 
 Created by Sinner Schrader to facilitate collaboration of different
 frontend teams and reusability of components.
