@@ -26,7 +26,7 @@ requirements.
 
 A Feature app consists of **dependencies,**
 
-### optionalDependencies,
+**optionalDependencies**,
 
 and a **create()** method
 ```javascript
