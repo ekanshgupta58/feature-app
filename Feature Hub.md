@@ -1,4 +1,5 @@
-# FEATURE HUB - ## Ekansh Gupta
+# FEATURE HUB - Ekansh Gupta 
+
 
 Created by Sinner Schrader to facilitate collaboration of different
 frontend teams and reusability of components.
