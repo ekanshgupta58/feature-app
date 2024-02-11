@@ -29,7 +29,7 @@ A Feature app consists of **dependencies,**
 ### optionalDependencies,
 
 and a **create()** method
-```
+```javascript
 const myFeatureAppDefinition = {
 
 dependencies: {
@@ -80,7 +80,7 @@ message.
 
 The create method takes the single argument env, which has the following
 properties:
-```
+```javascript
  const myFeatureAppDefinition = {
  create(env) {
  const {foo} = env.config;
@@ -92,7 +92,7 @@ properties:
  featureServices --- An object of required Feature Services that are
     semver-compatible with the declared dependencies in the Feature App
     definition:
-```
+```javascript
  const myFeatureAppDefinition = {
 
  dependencies: {
@@ -142,7 +142,7 @@ the feature apps.
 
 A feature service consists of an **id, dependencies** and
 **optionalDependencies** and a **create()** method.
-```
+```javascript
 const myFeatureServiceDefinition = {
 
 id: \'acme:my-feature-service\',
@@ -197,3 +197,4 @@ message.
 
 The create() method consists of one argument env which has
 featureServices as properties.
+ 
