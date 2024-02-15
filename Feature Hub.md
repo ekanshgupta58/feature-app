@@ -100,7 +100,7 @@ properties:
 
  featureServices: {
 
- \'acme:some-feature-service\': \'\^2.0.0\',
+ 'acme:some-feature-service\': \'\^2.0.0\',
 
  },
 
